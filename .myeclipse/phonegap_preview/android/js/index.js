@@ -50,7 +50,7 @@ app.initialize();
 
 function openSite()
 {
-    var ref = window.open('http://shawacademy.com', '_blank', 'location=yes');
+    var ref = window.open('http://facebook.com', '_blank', 'location=yes');
     ref.addEventListener('loadstart', function(event) { alert(event.url); });	
 }
     
