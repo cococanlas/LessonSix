@@ -1490,7 +1490,6 @@ div.ui-mobile-viewport {
 	overflow: visible;
 	overflow-x: hidden;
 	padding: 1em;
-	background-color: 	#6c5e5e;
 }
 /* Corner styling for dialogs and popups */
 .ui-corner-all > .ui-header:first-child,

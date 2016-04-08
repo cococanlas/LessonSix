@@ -17,7 +17,7 @@
 </head>
 <body>
     <div data-role="page">
-        <div data-role="header" data-theme="b"></div><!-- /header -->
+        <div data-role="header" data-theme="a"></div><!-- /header -->
         <div data-role="navbar" id="navbar-1">
             <ul>
                 <li>
@@ -31,7 +31,7 @@
                 </li>
             </ul>
         </div>
-        <div data-role="content" data-theme="b">
+        <div data-role="content" data-theme="a">
             <div class="ui-field-contain">
                 <label for="Email">Login here</label> <input data-clear-btn="true" id="Email" name="Email" type="text" value="enter email here...">
             </div>
@@ -39,7 +39,9 @@
                 <label for="Password">Password</label> <input data-clear-btn="true" id="Password" name="Password" type="text" value="enter password">
             </div>
             <div data-role="controlgroup" data-type="horizontal" id="buttons-1">
-                <a class="ui-btn ui-corner-all ui-icon-edit ui-btn-icon-left" href="#">Register</a> <a class="ui-btn ui-corner-all ui-icon-arrow-r ui-btn-icon-left" href="#">Login</a> <a class="ui-btn ui-corner-all ui-icon-lock ui-btn-icon-left" href="#">Forgot Password?</a>
+                <a class="ui-btn ui-corner-all ui-icon-edit ui-btn-icon-left" href="#">Register</a> 
+                <a class="ui-btn ui-corner-all ui-icon-arrow-r ui-btn-icon-left" href="#">Login</a>
+                <a class="ui-btn ui-corner-all ui-icon-lock ui-btn-icon-left" href="#">Forgot Password?</a>
             </div>
             <ul data-inset="true" data-role="listview" id="listview-1">
                 <li>
@@ -54,7 +56,8 @@
             </ul>
         </div><!-- /content -->
         <div data-position="fixed" data-role="footer" data-theme="b">
-            <a data-role="button" href="" id="button-1" onclick="openSite();">Open Site</a> <a data-role="button" href="" id="button-2" onclick="geo();">Open Location</a>
+            <a data-role="button" href="" id="button-1" onclick="openSite();">Open Site</a>
+            <a data-role="button" href="" id="button-2" onclick="geo();">Open Location</a>
         </div><!-- /footer -->
     </div><!-- /page -->
 </body>
